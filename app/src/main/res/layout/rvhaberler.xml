@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#2A2E43"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="340dp"
+       android:layout_height="430dp"
+       app:cardCornerRadius="24dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:background="#ED4356">
+
+           <LinearLayout
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:id="@+id/geriHaber"
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:src="@drawable/ufo"
+                   ></ImageView>
+               <TextView
+                   android:id="@+id/textHaberBaslik"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:text="Haberler"
+                   android:textSize="22sp"
+                   android:textStyle="bold"
+                   android:textColor="#FFF"
+                   android:layout_marginLeft="5dp"></TextView>
+
+
+
+           </LinearLayout>
+
+           <ScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scrollbars="none">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:textSize="17sp"
+                      android:textStyle="italic"
+                      android:textColor="#000"
+                      android:id="@+id/textHaberler"></TextView>
+              </LinearLayout>
+
+           </ScrollView>
+
+
+
+
+
+       </LinearLayout>
+
+
+   </androidx.cardview.widget.CardView>
+
+</LinearLayout>

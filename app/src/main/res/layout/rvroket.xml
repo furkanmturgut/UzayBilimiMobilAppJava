@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#2A2E43"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="310dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:background="#2A739A"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:background="#2A739A"
+                android:layout_width="255dp"
+                android:layout_height="310dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/roketAdi"
+                    android:layout_width="255dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Roket"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/roketFirma"
+                    android:layout_width="255dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Firma"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/roketMensei"
+                    android:layout_width="255dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Üretim"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/roketMaliyet"
+                    android:layout_width="255dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Maliyeti"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/roketUcus"
+                    android:layout_width="255dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:text="İlk Uçuş"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"></TextView>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="80dp"
+                android:layout_height="250dp"
+                android:src="@drawable/space"
+                android:layout_gravity="center"
+                android:id="@+id/roketResim"></ImageView>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    
+
+
+   
+
+
+
+
+
+</LinearLayout>
